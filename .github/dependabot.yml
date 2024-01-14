@@ -1,0 +1,16 @@
+---
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+  - package-ecosystem: docker
+    directory: .clusterfuzzlite
+    schedule:
+      interval: monthly
+  - package-ecosystem: docker
+    directory: .devcontainer
+    schedule:
+      interval: daily

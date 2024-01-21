@@ -14,7 +14,7 @@ if (EMBEDDED_FILESYSTEM_STANDALONE)
     FetchContent_Declare(
         emil
         GIT_REPOSITORY https://github.com/gabrielfrasantos/embedded-infra-lib.git
-        GIT_TAG        230ca4750f210485ff99b3fea1f9161948fc4d26 # Unreleased
+        GIT_TAG        aa4b064375e1052d7e67d416b6b77414078bc922 # Unreleased
     )
 
     FetchContent_MakeAvailable(emil)
